@@ -20,7 +20,7 @@ const Coin = () => {
       .catch((error) => {
         console.log(error)
       })
-  }, [])
+  })
 
   return (
     <div>
